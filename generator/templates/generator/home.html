@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="password">
+        <h1>Password generator</h1>
+        <label for="length">Select the length of your password</label>
+        <select name="length" id="length">
+            <option value="6">6 Characters</option>
+            <option value="7">7 characters</option>
+            <option value="8">8 characters</option>
+            <option value="9">9 characters</option>
+            <option value="10">10 characters</option>
+            <option value="11">11 characters</option>
+            <option value="12">12 characters</option>
+            <option value="13">13 characters</option>
+            <option value="14">14 characters</option>
+        </select>
+
+        <label for="uppercase">uppercase</label>
+        <input type="checkbox" name="uppercase" id="uppercase">
+
+        <label for="special">Special characters</label>
+        <input type="checkbox" name="special" id="special">
+
+        <label for="numbers">Numbers</label>
+        <input type="checkbox" name="numbers" id="numbers">
+
+        <button>Generate password</button>
+    </form>
+</body>
+</html>
